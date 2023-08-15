@@ -1,0 +1,48 @@
+.videoCard {
+    padding: 10px;
+    margin: 20px 10px;
+    cursor: pointer;
+    border: 1px solid #051421;
+    box-shadow: 0 0 8px 2px #051421;
+    width: 250px;
+    height: 435px;
+    transition: transform 100ms ease-in-out;
+}
+
+.videoCard > span {
+    display: flex;
+    align-items: center;
+}
+
+.videoCard > span >:nth-child(1) {
+    margin-right: 10px;
+}
+
+.v-imdb {
+    margin: 5px 0;
+}
+
+.v-play {
+    margin: 50px 0;
+}
+
+.v-play > strong {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.videoCard img {
+    object-fit: contain;
+    height: 350px;
+    border-radius: 4%;
+    margin: 10px 0;
+    transition: transform 100ms ease-in;
+}
+
+.videoCard:hover > img {
+    transform: scale(1.05);
+}
+
+.videoCard > h3 {
+    margin: 10px;
+}

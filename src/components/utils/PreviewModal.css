@@ -1,0 +1,19 @@
+.ant-modal-content {
+    background-image: linear-gradient(to right, #051421, #042727);
+    color: white;
+}
+
+.ant-modal-close-x {
+    color: white;
+}
+
+.vote-count, .vote-average, .production {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.vote-count>:nth-child(1), .vote-average>:nth-child(1) {
+    font-size: 30px;
+    margin-right: 10px;
+}
